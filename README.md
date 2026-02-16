@@ -1,9 +1,7 @@
 # P1-DB-Engine
 C-based implementation of a B-Tree indexing system for file I/O optimization. Focuses on low-level memory management and persistent data structure design.
-
-# Simple-DB-Engine (C Implementation)
-
-SQLite 아키텍처를 기반으로 구현한 경량화된 데이터베이스 엔진입니다. Let's build a simple database 튜토리얼을 참고하였습니다. 
+SQLite 아키텍처를 기반으로 구현한 경량화된 데이터베이스 엔진입니다. 
+Let's build a simple database 튜토리얼을 참고하였습니다. 
 B-Tree 기반의 디스크 페이징 시스템을 구현하여 대용량 데이터 처리의 기반을 마련했습니다.
 
 ## Key Features 
