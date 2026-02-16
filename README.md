@@ -27,7 +27,7 @@ B-Tree 기반의 디스크 페이징 시스템을 구현하여 대용량 데이�
 개선점: Dirty Page가 물리적 디스크에 완전히 기록됨을 커널단에서 보장하여 ACID의 Durability 속성 충족.
 
 3. B-Tree Node Layout (4KB Page)
-데이터 검색 속도를 O(N)에서 O(\log N)으로 단축하기 위해 B-Tree 자료구조를 파일 시스템 위에 매핑.
+데이터 검색 속도를 O(N)에서 O(log N)으로 단축하기 위해 B-Tree 자료구조를 파일 시스템 위에 매핑.
 
 Internal Node: 자식 페이지를 가리키는 포인터와 Key(Router) 저장.
 
